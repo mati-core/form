@@ -1,0 +1,3 @@
+services:
+	formFactory: MatiCore\Form\FormFactory
+	formContainerAccessor: MatiCore\Form\ContainerAccessor
