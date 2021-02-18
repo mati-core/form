@@ -204,7 +204,7 @@ class BootstrapV4Renderer extends DefaultFormRenderer
 
 				foreach ($children as $child) {
 					$foo = Strings::after($child, $control->getControlPart()->render());
-					if ($foo !== false) {
+					if ($foo !== null) {
 						$container->insert(null, $control->getControlPart()->render());
 						$description = $foo;
 					} else {

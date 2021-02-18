@@ -59,7 +59,7 @@ class Form extends \Nette\Application\UI\Form
 		return $this[$name] = (new TextInput($label))
 			->setRequired(false)
 			->setHtmlAttribute('class', 'form-control datepicker')
-			->addFilter(function (string $value): ?\DateTime {
+			->addFilter(function (?string $value): ?\DateTime {
 				if ($value === null || trim($value) === '') {
 					return null;
 				}
@@ -78,7 +78,7 @@ class Form extends \Nette\Application\UI\Form
 		return $this[$name] = (new TextInput($label))
 			->setRequired(false)
 			->setHtmlAttribute('class', 'form-control datepicker')
-			->addFilter(function (string $value): ?\DateTime {
+			->addFilter(function (?string $value): ?\DateTime {
 				if ($value === null || trim($value) === '') {
 					return null;
 				}
