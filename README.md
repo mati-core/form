@@ -2,6 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/mati-core/form/v)](//packagist.org/packages/mati-core/form)
 [![Total Downloads](https://poser.pugx.org/mati-core/form/downloads)](//packagist.org/packages/mati-core/form)
+![Integrity check](https://github.com/mati-core/form/workflows/Integrity%20check/badge.svg)
 [![Latest Unstable Version](https://poser.pugx.org/mati-core/form/v/unstable)](//packagist.org/packages/mati-core/form)
 [![License](https://poser.pugx.org/mati-core/form/license)](//packagist.org/packages/mati-core/form)
 
